@@ -14,8 +14,8 @@ const App = () => {
     <div>
         
         <select value={gender} onChange={changeGender}>
-          <option value="male">Male</option>
           <option value="female">Female</option>
+          <option value="male">Male</option>
         </select>
         <ul>
           {
